@@ -21,6 +21,7 @@ namespace CarInsuranceProgram
             int tickets = Convert.ToInt32(Console.ReadLine());
 
             // User answers must all be true
+            Console.WriteLine("Qualified?");
             Console.WriteLine(age >= 15 && tickets < 3 && dui != true);
 
             Console.ReadLine();
