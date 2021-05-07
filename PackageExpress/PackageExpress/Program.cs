@@ -10,11 +10,14 @@ namespace PackageExpress
     {
         static void Main(string[] args)
         {
+            // This program will estimate any shipping cost 
             Console.WriteLine("Welcome to Package Express. Please follow the instructions below \n" +
                 "What is the weight of your package?"
                 );
             int weight = Convert.ToInt32(Console.ReadLine());
             
+            // If true print right statement
+            // If false print left statement
             string result = (weight <= 50 ? "What is the width?" : "Package too heavy to be shipped via Package Express. Have a good day.");
             Console.WriteLine(result);
             
@@ -29,6 +32,7 @@ namespace PackageExpress
             // All must be true to ship package
             if (width <= 50 && height <= 50 && length <= 50)
             {
+                // calculating cost from dimensions
                 int LxWxH = length * width * height;
                 int xWeight = weight * LxWxH;
                 decimal total = xWeight / 100;
