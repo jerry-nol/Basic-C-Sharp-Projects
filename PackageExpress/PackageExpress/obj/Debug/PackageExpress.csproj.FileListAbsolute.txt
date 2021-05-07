@@ -1,0 +1,7 @@
+C:\Tech_Academy\Basic-C-Sharp-Projects\PackageExpress\PackageExpress\bin\Debug\PackageExpress.exe.config
+C:\Tech_Academy\Basic-C-Sharp-Projects\PackageExpress\PackageExpress\bin\Debug\PackageExpress.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\PackageExpress\PackageExpress\bin\Debug\PackageExpress.pdb
+C:\Tech_Academy\Basic-C-Sharp-Projects\PackageExpress\PackageExpress\obj\Debug\PackageExpress.csprojAssemblyReference.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\PackageExpress\PackageExpress\obj\Debug\PackageExpress.csproj.CoreCompileInputs.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\PackageExpress\PackageExpress\obj\Debug\PackageExpress.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\PackageExpress\PackageExpress\obj\Debug\PackageExpress.pdb
