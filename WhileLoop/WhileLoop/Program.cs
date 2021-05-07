@@ -14,6 +14,8 @@ namespace WhileLoop
             int winningNumber = Convert.ToInt32(Console.ReadLine());
             bool winner = winningNumber == 14;
 
+            // do while loop will keep the program running
+            // until the correct number is guessed
             do
             {
                 switch (winningNumber)
@@ -30,6 +32,7 @@ namespace WhileLoop
                         break;
                     case 14:
                         Console.WriteLine("You are the lucky winner of $100.00.");
+                        // This will stop the program once it is guessed
                         winner = true;
                         break;
                     default:
