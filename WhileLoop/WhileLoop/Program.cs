@@ -10,6 +10,14 @@ namespace WhileLoop
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("My favorite number could be any of these options.");
+            int between = 1;
+            while (between < 21)
+            {
+                Console.WriteLine(between);
+                between++;
+            }
+            
             Console.WriteLine("Guess my favorite number");
             int winningNumber = Convert.ToInt32(Console.ReadLine());
             bool winner = winningNumber == 14;
@@ -44,7 +52,6 @@ namespace WhileLoop
             }
             while (!winner);
             Console.Read();
-
 
         }
     }
