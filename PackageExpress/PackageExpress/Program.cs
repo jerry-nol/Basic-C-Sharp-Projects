@@ -16,11 +16,14 @@ namespace PackageExpress
                 );
             int weight = Convert.ToInt32(Console.ReadLine());
             
-            // If true print right statement
-            // If false print left statement
-            string result = (weight <= 50 ? "What is the width?" : "Package too heavy to be shipped via Package Express. Have a good day.");
-            Console.WriteLine(result);
-            
+            if (weight <= 50)
+            {
+                Console.WriteLine("What is the width?");
+            }
+            else
+            {
+                Console.WriteLine("Your package is too heavy to be shipped via Package Express.");
+            }
             
             // Getting all the dimensions of package
             int width = Convert.ToInt32(Console.ReadLine());
@@ -40,7 +43,7 @@ namespace PackageExpress
             }
             else
             {
-                Console.WriteLine("The package is too big to be shipped via Package Express.");
+                Console.WriteLine("The package is too big to be shipped via Package Express. \nAll dimensions of package must be no more than 50 inches");
             }
 
             // Final message
