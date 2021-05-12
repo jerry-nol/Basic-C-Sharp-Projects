@@ -1,0 +1,7 @@
+C:\Tech_Academy\Basic-C-Sharp-Projects\HandlingErrors\HandlingErrors\bin\Debug\HandlingErrors.exe.config
+C:\Tech_Academy\Basic-C-Sharp-Projects\HandlingErrors\HandlingErrors\bin\Debug\HandlingErrors.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\HandlingErrors\HandlingErrors\bin\Debug\HandlingErrors.pdb
+C:\Tech_Academy\Basic-C-Sharp-Projects\HandlingErrors\HandlingErrors\obj\Debug\HandlingErrors.csproj.CoreCompileInputs.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\HandlingErrors\HandlingErrors\obj\Debug\HandlingErrors.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\HandlingErrors\HandlingErrors\obj\Debug\HandlingErrors.pdb
+C:\Tech_Academy\Basic-C-Sharp-Projects\HandlingErrors\HandlingErrors\obj\Debug\HandlingErrors.csprojAssemblyReference.cache
