@@ -1,0 +1,7 @@
+C:\Tech_Academy\Basic-C-Sharp-Projects\Methods\Methods\obj\Debug\Methods.csprojAssemblyReference.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\Methods\Methods\obj\Debug\Methods.csproj.CoreCompileInputs.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\Methods\Methods\bin\Debug\Methods.exe.config
+C:\Tech_Academy\Basic-C-Sharp-Projects\Methods\Methods\bin\Debug\Methods.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\Methods\Methods\bin\Debug\Methods.pdb
+C:\Tech_Academy\Basic-C-Sharp-Projects\Methods\Methods\obj\Debug\Methods.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\Methods\Methods\obj\Debug\Methods.pdb
