@@ -1,0 +1,7 @@
+C:\Tech_Academy\Basic-C-Sharp-Projects\OptionalParameter\OptionalParameter\bin\Debug\OptionalParameter.exe.config
+C:\Tech_Academy\Basic-C-Sharp-Projects\OptionalParameter\OptionalParameter\bin\Debug\OptionalParameter.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\OptionalParameter\OptionalParameter\bin\Debug\OptionalParameter.pdb
+C:\Tech_Academy\Basic-C-Sharp-Projects\OptionalParameter\OptionalParameter\obj\Debug\OptionalParameter.csprojAssemblyReference.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\OptionalParameter\OptionalParameter\obj\Debug\OptionalParameter.csproj.CoreCompileInputs.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\OptionalParameter\OptionalParameter\obj\Debug\OptionalParameter.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\OptionalParameter\OptionalParameter\obj\Debug\OptionalParameter.pdb
