@@ -10,11 +10,12 @@ namespace MethodOverload
     {
         static void Main(string[] args)
         {
-            //creating object
+            // Creates object
             Operations ops = new Operations();
-            ops = Overload(3, 5);
             
-            Console.WriteLine(ops);
+            Console.WriteLine("\n"+Operations.Overload(4,6));
+            Console.WriteLine("\n" + Operations.Overload(45.34, 3.45));
+
             Console.ReadLine();
         }
     }
