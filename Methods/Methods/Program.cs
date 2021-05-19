@@ -15,13 +15,10 @@ namespace Methods
             Console.WriteLine("Select an integer to be added, subtracted and multiplied by different numbers.");
             int num4 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(add.num1 + num4);
-
-            Class2 subtract = new Class2();
-            Console.WriteLine(subtract.num2 - num4);
-
-            Class3 multiply = new Class3();
-            Console.WriteLine(multiply.num3 * num4);
+            Console.WriteLine("\n"+ Class1.Add(4,num4));
+            Console.WriteLine("\n" + Class1.Subtract(9,num4));
+            Console.WriteLine("\n" + Class1.Multiply(50,num4));
+            
 
             Console.ReadLine();
         }

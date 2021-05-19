@@ -8,15 +8,17 @@ namespace Methods
 {
     public class Class1
     {
-        public int num1 = 5;
+        public static int Add(int num1, int num4)
+        {
+            return num1 + num4;
+        }
+        public static int Subtract(int num2, int num4)
+        {
+            return num2 - num4;
+        }
+        public static int Multiply(int num3, int num4)
+        {
+            return num3 * num4;
+        }
     }
-    public class Class2
-    {
-        public int num2 = 15;
-    }
-    public class Class3
-    {
-        public int num3 = 10;
-    }
-
 }
