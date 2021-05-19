@@ -18,12 +18,10 @@ public class Operations
         return n + d;
     }
     // method 3 adding two strings for an integer outcome 
-    //public static string Overload(string m, string f)
-    //{
-    //    m = "100";
-    //    int u = int.Parse(m);
-    //    f = "50";
-    //    int h = int.Parse(f);
-    //    return m + f;
-    //}
+    public static int Overload(string m, string f)
+    {
+        int u = int.Parse(m);
+        int h = int.Parse(f);
+        return u + h;
+    }
 }

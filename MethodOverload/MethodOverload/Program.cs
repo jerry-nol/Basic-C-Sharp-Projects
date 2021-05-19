@@ -15,7 +15,7 @@ namespace MethodOverload
             
             Console.WriteLine("\n"+Operations.Overload(4,6));
             Console.WriteLine("\n" + Operations.Overload(45.34, 3.45));
-
+            Console.WriteLine("\n" + Operations.Overload("100", "24"));
             Console.ReadLine();
         }
     }
