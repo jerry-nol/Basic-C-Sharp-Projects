@@ -8,9 +8,12 @@ namespace OptionalParameter
         static void Main(string[] args)
         {
             Op op = new Op();
-            int og = Op.Parameter(5,9);
-            Console.WriteLine("Your number added ="+ og);           
+           
+            // You can enter either one or two parameters
+            // The second parameter is optional
+            int sum = Op.Parameter(5);
             
+            Console.WriteLine("Your number added =" + sum);
             Console.ReadLine();
         }
     }
