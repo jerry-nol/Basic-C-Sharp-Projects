@@ -1,0 +1,7 @@
+C:\Tech_Academy\Basic-C-Sharp-Projects\VoidMethod\VoidMethod\bin\Debug\VoidMethod.exe.config
+C:\Tech_Academy\Basic-C-Sharp-Projects\VoidMethod\VoidMethod\bin\Debug\VoidMethod.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\VoidMethod\VoidMethod\bin\Debug\VoidMethod.pdb
+C:\Tech_Academy\Basic-C-Sharp-Projects\VoidMethod\VoidMethod\obj\Debug\VoidMethod.csprojAssemblyReference.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\VoidMethod\VoidMethod\obj\Debug\VoidMethod.csproj.CoreCompileInputs.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\VoidMethod\VoidMethod\obj\Debug\VoidMethod.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\VoidMethod\VoidMethod\obj\Debug\VoidMethod.pdb
