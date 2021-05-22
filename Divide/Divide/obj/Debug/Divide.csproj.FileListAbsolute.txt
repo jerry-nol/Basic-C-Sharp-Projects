@@ -1,0 +1,7 @@
+C:\Tech_Academy\Basic-C-Sharp-Projects\Divide\Divide\bin\Debug\Divide.exe.config
+C:\Tech_Academy\Basic-C-Sharp-Projects\Divide\Divide\bin\Debug\Divide.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\Divide\Divide\bin\Debug\Divide.pdb
+C:\Tech_Academy\Basic-C-Sharp-Projects\Divide\Divide\obj\Debug\Divide.csprojAssemblyReference.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\Divide\Divide\obj\Debug\Divide.csproj.CoreCompileInputs.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\Divide\Divide\obj\Debug\Divide.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\Divide\Divide\obj\Debug\Divide.pdb
