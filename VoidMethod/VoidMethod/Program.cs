@@ -15,7 +15,7 @@ namespace VoidMethod
             class1.MathOp(7,7);
 
 
-            
+            // passing in parameter by their names and giving them values
             class1.FullName(FirstName: "Banelly", LastName: "Marquez");
             
             Console.ReadLine();
