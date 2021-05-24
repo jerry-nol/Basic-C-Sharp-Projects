@@ -16,6 +16,14 @@ namespace Abstract
             employee.LastName = "Student";
             // calling SayName method 
             employee.SayName();
+
+            // Object created of interface type
+            IQuittable quit = new Employee();
+            
+            // calling the method 
+            quit.Quit();
+            
+            
             Console.ReadLine();
         }
     }
