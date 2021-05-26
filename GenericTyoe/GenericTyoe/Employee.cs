@@ -8,11 +8,7 @@ namespace GenericTyoe
 {
     public class Employee<T>
     {
+        // list property  of things
         public List<T> Things { get; set; }
-
-        public void Add()
-        {
-            Console.WriteLine(Things);
-        }
     }
 }
