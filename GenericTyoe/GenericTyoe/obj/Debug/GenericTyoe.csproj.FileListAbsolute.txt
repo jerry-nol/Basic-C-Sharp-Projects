@@ -1,0 +1,7 @@
+C:\Tech_Academy\Basic-C-Sharp-Projects\GenericTyoe\GenericTyoe\bin\Debug\GenericTyoe.exe.config
+C:\Tech_Academy\Basic-C-Sharp-Projects\GenericTyoe\GenericTyoe\bin\Debug\GenericTyoe.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\GenericTyoe\GenericTyoe\bin\Debug\GenericTyoe.pdb
+C:\Tech_Academy\Basic-C-Sharp-Projects\GenericTyoe\GenericTyoe\obj\Debug\GenericTyoe.csprojAssemblyReference.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\GenericTyoe\GenericTyoe\obj\Debug\GenericTyoe.csproj.CoreCompileInputs.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\GenericTyoe\GenericTyoe\obj\Debug\GenericTyoe.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\GenericTyoe\GenericTyoe\obj\Debug\GenericTyoe.pdb
