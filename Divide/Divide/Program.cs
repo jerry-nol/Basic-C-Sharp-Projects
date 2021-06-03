@@ -10,17 +10,12 @@ namespace Divide
     {
         static void Main(string[] args)
         {
-            Divide divide = new Divide();
-            Console.WriteLine("Pick a number to get divided by 2");
-            int any = Convert.ToInt32(Console.ReadLine());
-            int result = any / 2;
-            Console.WriteLine("\nThe number " + any + " divided by 2 = " + result);
-            
-            // Declaring variable without setting it a value
-            int O;
-            // Passing variable O int passed in with "out" keyword
-            Divide.ByTwo(out O);
-            Console.WriteLine("\nInteger L divided by 2 = " + O);
+            Divide number1 = new Divide();
+            Divide number2 = number1;
+            number1.Amount = 334.34m;
+            number2.Amount = 459.34m;
+
+            Console.WriteLine(number2.Amount);
 
             Console.ReadLine();
         }
