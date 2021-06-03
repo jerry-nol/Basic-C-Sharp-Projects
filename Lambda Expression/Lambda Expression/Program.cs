@@ -22,14 +22,14 @@ namespace Lambda_Expression
             employees.Add(new Employees() { FirstName = "Chester", LastName = "Winds", ID = 9 });
             employees.Add(new Employees() { FirstName = "Pax", LastName = "Fernsby", ID = 10 });
 
-            //foreach (Employees employee in employees)
-            //{
-            //    if (employee.FirstName == "Joe")
-            //    {
+            foreach (Employees employee in employees)
+            {
+                if (employee.FirstName == "Joe")
+                {
 
-            //        Console.WriteLine(employee.FirstName + " " + employee.LastName);
-            //    }
-            //}
+                    Console.WriteLine(employee.FirstName + " " + employee.LastName + " " + employee.ID);
+                }
+            }
 
             List<Employees> newList = employees.Where(x => x.FirstName == "Joe").ToList();
 
