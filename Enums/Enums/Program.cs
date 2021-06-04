@@ -10,32 +10,26 @@ namespace Enums
     {
         static void Main(string[] args)
         {
-            // Will make the loop repeat itself until it is entered correctly.
+            // Repeats the loop until entered correctly
             while(true)
             try
             {
                 Console.WriteLine("Please enter the current day of the week.");
-                string currentday = Console.ReadLine();
-                WeekDay day;
 
-                // If user enter current day correctly, print to console
-                if (Enum.TryParse<WeekDay>(currentday, out day))
-                {
-                    Console.WriteLine("Today is " + currentday);
-                    Console.ReadLine();
-                        // Breaks out of loop once correct date is entered.
-                        break;
-                }
-                else
-                {
-                    throw new OverflowException(); // try parse failed
-                }
+                string userInput = Console.ReadLine();
+
+                // Takes user input and compares to enum list and assigns variable day 
+                WeekDay day = (WeekDay)Enum.Parse(typeof(WeekDay), userInput);
+
+                Console.WriteLine("Today is " + day);
+                Console.ReadLine();
+                    // Breaks out of loop once day is entered correctly.
+                    break;
             }
-            
-            catch (OverflowException)
+            catch (ArgumentException)
             {
-                // Throws this message day is not valid.
-                Console.WriteLine("Not a valid day");
+                 // Throws this message day is not valid.
+                 Console.WriteLine("Not a valid day");
             }
             Console.ReadLine();
         }
