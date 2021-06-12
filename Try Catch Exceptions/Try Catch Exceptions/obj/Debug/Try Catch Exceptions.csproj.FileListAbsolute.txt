@@ -1,0 +1,7 @@
+C:\Tech_Academy\Basic-C-Sharp-Projects\Try Catch Exceptions\Try Catch Exceptions\obj\Debug\Try Catch Exceptions.csprojAssemblyReference.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\Try Catch Exceptions\Try Catch Exceptions\obj\Debug\Try Catch Exceptions.csproj.CoreCompileInputs.cache
+C:\Tech_Academy\Basic-C-Sharp-Projects\Try Catch Exceptions\Try Catch Exceptions\bin\Debug\Try Catch Exceptions.exe.config
+C:\Tech_Academy\Basic-C-Sharp-Projects\Try Catch Exceptions\Try Catch Exceptions\bin\Debug\Try Catch Exceptions.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\Try Catch Exceptions\Try Catch Exceptions\bin\Debug\Try Catch Exceptions.pdb
+C:\Tech_Academy\Basic-C-Sharp-Projects\Try Catch Exceptions\Try Catch Exceptions\obj\Debug\Try Catch Exceptions.exe
+C:\Tech_Academy\Basic-C-Sharp-Projects\Try Catch Exceptions\Try Catch Exceptions\obj\Debug\Try Catch Exceptions.pdb

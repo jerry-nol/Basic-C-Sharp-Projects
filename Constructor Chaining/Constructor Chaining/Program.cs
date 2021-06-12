@@ -15,7 +15,8 @@ namespace Constructor_Chaining
             // using "var" to create a variable
             var newPerson = new Person("Frank");
 
-            Console.WriteLine(name);
+            Console.WriteLine("{0} is {1} years old", newPerson.Name, newPerson.Age);
+            Console.WriteLine("\n"+name);
             Console.ReadLine();
         }
     }
