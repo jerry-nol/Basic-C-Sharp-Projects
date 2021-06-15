@@ -49,65 +49,71 @@ namespace CarInsurance.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,Dui,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
         {
-            double Base = 50;
-            TimeSpan age = DateTime.Now - insuree.DateOfBirth;
-
             
-            
-                
-             if (ModelState.IsValid)
-             {
-                if (Convert.ToInt32(age.TotalDays) / 365 <= 18)
-                {
-                    Base += 100;
-                }
-                if (Convert.ToInt32(age.TotalDays) / 365 >= 19 && Convert.ToInt32(age.TotalDays) / 365 <= 25)
-                {
-                    Base += 50;
-                }
-                if (Convert.ToInt32(age.TotalDays) / 365 >= 26)
-                {
-                    Base += 25;
-                }
-                if (insuree.CarYear < 2000)
-                {
-                    Base += 25;
-                }
-                if (insuree.CarYear > 2015)
-                {
-                    Base += 25;
-                }
-                if (insuree.CarMake == "porsche")
-                {
-                    Base += 25;
-                }
-                if (insuree.CarMake == "porsche" && insuree.CarModel == "911 carrera")
-                {
-                    Base += 25;
-                }
-                
-                if (insuree.Dui == true)
-                {
-                    double percent = Base * .25;
-                    Base += percent;
-                }
-                if (insuree.CoverageType == true)
-                {
-                    double percent = Base * .5;
-                    Base += percent;
-                }
 
-                //Base = insuree.Quote;
-                
+            //TimeSpan age = DateTime.Now - insuree.DateOfBirth;
 
+            if (ModelState.IsValid)
 
+            {
+                insuree.Quote = calculateQuote(insuree);
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
-             }
+            }
 
             return View(insuree);
         }
+        public decimal calculateQuote(Insuree insuree)
+        {
+            insuree.Quote = 50;
+
+
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year <= 18)
+            {
+                insuree.Quote += 100;
+            }
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year > 18 && DateTime.Now.Year - insuree.DateOfBirth.Year <= 25)
+            {
+                insuree.Quote += 50;
+            }
+            if (DateTime.Now.Year - insuree.DateOfBirth.Year > 25)
+            {
+                insuree.Quote += 25;
+            }
+            if (insuree.CarYear < 2000)
+            {
+                insuree.Quote += 25;
+            }
+            if (insuree.CarYear > 2015)
+            {
+                insuree.Quote += 25;
+            }
+            if (insuree.CarMake == "porsche")
+            {
+                insuree.Quote += 25;
+            }
+            if (insuree.CarMake == "porsche" && insuree.CarModel == "911 carrera")
+            {
+                insuree.Quote += 25;
+            }
+            if (insuree.Dui == true)
+            {
+                insuree.Quote *= 1.25m;
+
+            }
+            if (insuree.CoverageType == true)
+            {
+                insuree.Quote *= 1.50m;
+            }
+            for (int i = 0; i < insuree.SpeedingTickets; i++)
+            {
+                insuree.Quote += 10;
+            }
+            return insuree.Quote;
+        }
+                
+             
 
         // GET: Insuree/Edit/5
         public ActionResult Edit(int? id)
@@ -173,6 +179,10 @@ namespace CarInsurance.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+        public ActionResult Admin()
+        {
+            return View(db.Insurees.ToList());
         }
     }
 }
